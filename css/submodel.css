@@ -1,0 +1,82 @@
+div{outline:#000 dashed 0px;}
+body{
+    margin:0;
+    font-family:'Microsoft YaHei';
+    background-color:#cad6cc;
+}
+ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+a{color:#000}
+a:link, a:visited{text-decoration:none;}
+a:hover {text-decoration:underline;color:red;}
+a:active {text-decoration:none;}
+
+/*---------------------conat---------------------------*/
+#container{    
+    width:990px;       /*内容居中*/
+    margin-left:auto;
+    margin-right:auto;
+}
+#header{
+	padding-top:205px;
+    height:28px;
+    width:100%;
+    background-image:url('../src/head_background.jpg');
+    background-repeat:no-repeat;
+}
+#nav{
+    width:100%;
+    padding:0;
+    margin:0;
+}
+#nav li{
+    margin:0 10px;
+    padding:0;
+    float:left;
+    width:88px;
+}
+#nav a{
+    height:20px;
+    display:block;
+    padding:4px 0;
+    font-size:16px;
+    text-align:center;
+    color:#fff;
+}
+#nav a:link, #nav a:visited{}
+#nav a:hover, #nav a:active{
+    background-color:#0094ff;
+    text-decoration:none;
+}
+/*------------------------------------------------*/
+#content{
+	padding:1px 1cm 1px 1cm;
+	background-color:#fff;
+}
+#heading1inContent {padding-left:77px;}
+#content p{
+    margin-top:0;    
+	text-indent:2em;
+    letter-spacing:0.2em;
+}
+
+/*------------------------------------------------*/
+#footer{
+    clear:both;
+    height:18px;
+	background-color:#4375f3;
+	color:#cad6cc;
+    font-family:SimSun;
+    font-style:italic;
+}
+#EnglishCopyright{
+    float:left;
+    margin:0 0 0 2em;
+}
+#ChineseCopyright{
+    float:right;
+    margin:0 2em 0 0;
+}
